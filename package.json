@@ -1,0 +1,17 @@
+{
+  "name": "lodash-fp-migrate",
+  "version": "1.0.0",
+  "description": "A tool for migrating code that uses lodash to lodash/fp.",
+  "author": {
+    "name": "Thomas Broadley",
+    "email": "buriedunderbooks@hotmail.com>"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lodash"
+  ]
+}
