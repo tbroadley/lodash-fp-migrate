@@ -12,7 +12,7 @@ glob(process.argv[2], function (err, files) {
   files.forEach(function (file) {
     babel.transformFile(
       file,
-      { plugins: [plugin] },
+      { plugins: [plugin], babelrc: false },
       function(err, result) {
         if (err) {
           console.log(err);
