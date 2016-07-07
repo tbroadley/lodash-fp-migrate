@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 var glob = require('glob');
 var babel = require('babel-core');
 var plugin = require('babel-plugin-lodash-fp').default;

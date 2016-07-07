@@ -11,13 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/tbroadley/lodash-fp-migrate.git"
   },
-  "bugs": "",
+  "bugs": "https://github.com/tbroadley/lodash-fp-migrate/issues",
   "license": "MIT",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "lodash-fp-migrate": "./index.js"
   },
   "dependencies": {
     "babel-core": "^6.10.4",
