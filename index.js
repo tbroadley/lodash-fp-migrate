@@ -17,7 +17,9 @@ glob(process.argv[2], function (err, files) {
         if (err) {
           console.log(err);
         } else {
-          fs.writeFile(file, result.code);
+          fs.writeFile(file, result.code, function () {
+            console.log('Migrated ' + file);
+          });
         }
       }
     );
